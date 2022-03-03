@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 
+from ctypes.wintypes import tagSIZE
 from pathlib import Path
 # for message framwork use_default_colors
 import os
@@ -134,7 +135,7 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
-
+# for changing message tag
 MESSAGE_TAGS = {
     messages.ERROR:'danger'
 }
