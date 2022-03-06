@@ -95,7 +95,6 @@ def handeLogin(request):
             return redirect("home")
 
     return HttpResponse("404- Not found")
-    
 
     return HttpResponse("login")
 
